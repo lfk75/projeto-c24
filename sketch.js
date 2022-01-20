@@ -3,10 +3,16 @@ const World = Matter.World;
 const Bodies = Matter.Bodies;
 const Constraint = Matter.Constraint;
 
+var ball1;
+var ball2;
 var engine, world;
 var canvas;
 var palyer, playerBase, playerArcher;
 var playerArrows = [];
+var info = [[ball1.positio.x,ball1.positio.y],
+           [ball2.positio.x,ball2.positio.y],
+          [ball3.positio.x,ball3.positio.y] ];
+  console.log(info[1][0]);
 
 
 function preload() {
